@@ -1,187 +1,555 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Chillever Personalized: Custom Tshirt, Blanket, Pillow, Canvas</title>
-  <style>
-  *{
-    box-sizing: border-box;
-    margin: 0;
-  }
-  #header{
-  }
-  .top{
-    background: blue;
-    text-align: center;
-    color: white;
-  }
-  li{
-    float: left;
-    list-style-type: none;
-  }
-  .column{
-    float: left;
-    width: 25%;
-  }
-  #main-content{
-  }
-  #footer{
-  }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chillever Personalized: Custom Tshirt, Blanket, Pillow, Canvas</title>
+    <link rel="icon" href="https://cdn.shopify.com/s/files/1/0611/6655/1228/files/favicon_32x32.png?v=1659337963" type="image/png">
+    <style>
+        body{
+            margin: 0;
+        }
+        #header{
+            border-bottom: 1px solid #e5e7eb;
+            height: 170px;
+        }
+        .top-header{
+            float: left;
+            width: 100%;
+            background-color: rgb(54 155 230);
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            color: rgb(255 255 255);
+            font-weight: 600;
+        }
+        .mid-header{
+            float: left;
+            width: 100%;
+            padding-top: 25px;
+            padding-left: 10px;
+            height: 70px;
+            box-sizing: border-box;
+        }
+        .bot-header{
+            float: left;
+            width: 100%;
+            height: 70px;
+        }
+        #main-content{
+            float: left;
+            width: 100%;
+            min-height: 1000px;
+            margin: 20px 0px;
+        }
+        .top-img{
+            text-align: center;
+        }
+        .main-img{
+            float: left;
+            width: 25%;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .img img{
+            width: 100%;
+        }
+        .main-img a{
+            font-weight: 500;
+            text-align: center;
+            text-decoration: none;
+            color: #000000d9;
+        }
+        .mid-img{
+            float: left;
+            width: 25%;
+            margin-bottom: 30px;
+        }
+        .mimg img{
+            width: 100%;
+        }
+        .mid-img a{
+            font-weight: 400;
+            color: rgb(107 114 128);
+            text-decoration: none;
+        }
+        .mid-img a:hover{
+            color: blue;
+        }
+        #footer{
+            float: left;
+            width: 100%;
+            height: 150px;
+        }
+        .top-foot{
+            background-color: #ccc;
+            height: 150px;
+            float: left;
+            width: 100%;
+        }
+        .top-foot1{
+            float: left;
+            width: 33.33%;
+        }
+        .bot-foot{
+            background-color: white;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            color: #000000d9;
+        }
+        .bot-foot a{
+            text-decoration: none;
+            color: #000000d9;
+        }
+        .center,
+        .top-content,
+        .mid-content,
+        .bot-content,
+        .top-foot0{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .bot-header a{
+            text-decoration: none;
+            font-weight: 600;
+            color: #000000d9;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+        }
+        .bot-header li{
+            list-style-type: none;
+            float: left;
+            padding: 35px 15px;
+
+        }
+        .bot-header li:hover ul{
+            display: block;
+            position: absolute;
+        }
+        .bot-header li ul{
+            display: none;
+            background-color: white;
+            margin-top: 10px;
+        }
+        .bot-header li ul li{
+            float: none;
+            padding: 10px;
+        }
+        .right a{
+            float: right;
+            color: #369be6;
+            font-weight: 500;
+            text-decoration: none;
+        }
+        .left a{
+            float: left;
+            color: #000000d9;
+            font-weight: 600;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-  <div id="header">
-    <div class="top">
-      <p>Order 2+ and save 10% with code:CE1</p>
+    <div id="header">
+        <div class="top-header"> Order 2+ and save 10% with code: CE1 </div>
+        <div class="center">
+            <div class="mid-header">
+                <a href="#">
+                    <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/files/Frame_1_180x.png?v=1659324800" alt="">
+                </a>
+            </div>
+            <div class="bot-header">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Best Selling</a></li>
+                    <li><a href="#">Holiday Gifts</a>
+                        <ul>
+                            <li><a href="#">Christmas Gifts</a></li>
+                            <li><a href="#">Mother's Day Gifts</a></li>
+                            <li><a href="#">Autumn & Halloween Gifts</a></li>
+                            <li><a href="#">Father's Day Gifts</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Blankets</a></li>
+                    <li><a href="#">Embroidery Gifts</a></li>
+                    <li><a href="#">Track Orders</a></li>
+                    <li><a href="#">Contact</a></li>
+                 </ul>
+            </div>
+        </div>
     </div>
-    <div>
-      CHILL EVER
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Best Selling</a></li>
-        <li><a href="">Holiday Gifts</a></li>
-        <li><a href="">Products</a></li>
-        <li><a href="">Accessories</a></li>
-        <li><a href="">Blankets</a></li>
-        <li><a href="">Embroidery Gifts</a></li>
-        <li><a href="">Track Orders</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-  <div style="clear:both"></div>
-  <div id="main-content">
-    <div>
-      <div>
-        <h3>Collection list</h3>
-        <div class="column">
-          <h6>Best Selling</h6>
+    <div id="main-content">
+        <div class="top-img">
+            <a href="#"><img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/files/halloween-Chillever.png?v=1659580078%22"></a>
         </div>
-        <div class="column">
-          <h6>Gifts For Grandma</h6>
+        <div class="top-content">
+            <h3>Collection list</h3>
+            <div class="main-img">
+                <div class="img">
+                    <a href="#">
+                        <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/collections/gossby1_350x.png?v=1660289030">
+                    </a>
+                </div>
+                <a href="#">Best Selling</a>
+            </div>
+            <div class="main-img">
+                <div class="img">
+                    <a href="#">
+                        <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/collections/mk2_350x.png?v=1667034586">
+                    </a>
+                </div>
+                <a href="#">Ornaments Gifts</a>
+            </div>
+            <div class="main-img">
+                <div class="img">
+                    <a href="#">
+                        <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/collections/1_350x_42809e89-9e5d-426f-bf0e-d_350x.png?v=1665393304">
+                    </a>
+                </div>
+                <a href="#">Accessories</a>
+            </div>
+            <div class="main-img">
+                <div class="img">
+                    <a href="#">
+                        <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/collections/MK_44_350x.png?v=1660289315">
+                    </a>
+                </div>
+                <a href="#">Family Wall Art</a>
+            </div>
         </div>
-        <div class="column">
-          <h6>Accessories</h6>
-        </div>
-        <div class="column">
-          <h6>Family Wall Art</h6>
-        </div>
-        <div style="clear:both"></div>
-      </div>
-      <div>
-        <h3>Grandma's Gift</h3>
-        <div class="column">
-          <h6>Best Selling</h6>
-        </div>
-        <div class="column">
-          <h6>Gifts For Grandma</h6>
-        </div>
-        <div class="column">
-          <h6>Accessories</h6>
-        </div>
-        <div class="column">
-          <h6>Family Wall Art</h6>
-        </div>
-      </div>
-      <div>
-        <h3>Grandpa's Gift</h3>
-        <div class="column">
-          <h6 >Best Selling</h6>
-        </div>
-        <div class="column">
-          <h6>Gifts For Grandma</h6>
-        </div>
-        <div class="column">
-          <h6>Accessories</h6>
-        </div>
-        <div class="column">
-          <h6>Family Wall Art</h6>
-        </div>
-      </div>
-      <div>
-        <h3>Necklaces</h3>
-        <div class="column">
-          <h6>Best Selling</h6>
-        </div>
-        <div class="column">
-          <h6>Gifts For Grandma</h6>
-        </div>
-        <div class="column">
-          <h6>Accessories</h6>
-        </div>
-        <div class="column">
-          <h6>Family Wall Art</h6>
-        </div>
-      </div>
-      <div>
-        <h3>Ornaments</h3>
-        <div class="column">
-          <h6>Best Selling</h6>
-        </div>
-        <div class="column">
-          <h6>Gifts For Grandma</h6>
-        </div>
-        <div class="column">
-          <h6>Accessories</h6>
-        </div>
-        <div class="column">
-          <h6>Family Wall Art</h6>
-        </div>
-      </div>
-      <div>
-        <h3>Family Wall Art</h3>
-        <div class="column">
-          <h6>Best Selling</h6>
-        </div>
-        <div class="column">
-          <h6>Gifts For Grandma</h6>
-        </div>
-        <div class="column">
-          <h6>Accessories</h6>
-        </div>
-        <div class="column">
-          <h6>Family Wall Art</h6>
-        </div>
-      </div>
-      <div>
-        <h3>Best Selling</h3>
-        <div class="column">
-          <h6>Best Selling</h6>
-        </div>
-        <div class="column">
-          <h6>Gifts For Grandma</h6>
-        </div>
-        <div class="column">
-          <h6>Accessories</h6>
-        </div>
-        <div class="column">
-          <h6>Family Wall Art</h6>
-        </div>
-      </div>
-      <div>
-        <h3>Blog</h3>
-        <div class="column">
-          <h6>Best Selling</h6>
-        </div>
-        <div class="column">
-          <h6>Gifts For Grandma</h6>
-        </div>
-        <div class="column">
-          <h6>Accessories</h6>
-        </div>
-      </div>
-    </div>
-  </div>
+        <div class="mid-content">
+                <div class="left"><a href="#">Ornaments</a></div>
+                <div class="right"><a href="#">view more</a></div>
+                <div style="clear:both"></div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/1_27ea522a-1f64-4788-82fc-a28faf6a0bea_350x.png?v=1665485909">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Custom Baby Cute Photo With Name for Christmas Ornament <br>
+                        Ornament <br>
+                        $19.95
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/6_7bda172c-9312-487b-a465-d814cec62d50_350x.png?v=1665475091">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Custom Baby’s First Christmas Pictures Ornament LTP01 <br>
+                        Ornament <br>
+                        $21.99
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/1_17440cb5-ac45-4598-aaa6-9802be28ec31_350x.png?v=1664613217">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Cute Baby Santa Ornament Custom Name Christmas Ornament <br>
+                        Ornament <br>
+                        $17.95
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/0_125e22b0-d197-401a-97dc-6d15d5bfbf0f_350x.png?v=1665476174">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Custom Baby Cute Pumpkin Photo With Name for Christmas Ornament LTP01 <br>
+                        Ornament <br>
+                        $21.99
+                    </a>
+                </div>
 
-  <div id="footer">
-    <div class="column">
-      <h3>Information</h3>
+                <div class="left"><a href="#">Grandma's Gift</a></div>
+                <div class="right"><a href="#">view more</a></div>
+                <div style="clear:both"></div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/00Wildflowers_Mimi_And_Grandkids-classic-00-Sports_Grey-women_350x.png?v=1659368248">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Wildflowers Mimi And Grandkids T-Shirt<br>
+                        T-Shirt<br>
+                        $24.95
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/00Pofily_Personalized_Nana_s_Little_Pumpkins_With_Grandkids_Autumn_-classic-00-sports_grey-women_350x.png?v=1659357604">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Personalized Autumn Gift for Grandma, Personalized Nana's Little Pumpkins With Grandkids Autumn <br>
+                        T-Shirt <br>
+                        $24.95
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/1306_350x.jpg?v=1659350069">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Mothers Day Shirt For Grandma Wife Mom Nana Personalized Est Leopard CTH01 <br>
+                        T-Shirt<br>
+                        $24.95
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/0104-NANAPURPLEFlowerMOCKUP_350x.png?v=1659322221">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Purple Flower Nana And Grandkids T-Shirt<br>
+                        T-Shirt <br>
+                        $24.95
+                    </a>
+                </div>
+
+                <div style="clear:both"></div>
+                <div class="left"><a href="#">Grandpa's Gift</a></div>
+                <div class="right"><a href="#">view more</a></div>
+                <div style="clear:both"></div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/2_24a6f664-3fac-431e-878e-96e75dde0e89_350x.png?v=1659401168">
+                        </a>
+                    </div>
+                    <a href="#">
+                         Chillever Grandpasaurus And Kids Personalized Shirt (1-10 Kids) <br>
+                         T-Shirt <br>
+                         $24.95
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/MocupPoppyAU_350x.jpg?v=1659236142">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Legend Husband Daddy Poppy T-Shirt<br>
+                        T-Shirt <br>
+                        $24.95
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/00My_Favourite_People_Call_Me_Poppy_And_Grandkids_VTN01-classic-00-black-men_350x.png?v=1659174828">
+                        </a>
+                    </div>
+                    <a href="#">
+                        My Favourite People Call Me Poppy And Grandkids VTN01 T-Shirt<br>
+                        T-Shirt <br>
+                        $24.95
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/00Chillever_Personalized_Grandpa_Man_Myth_Legend_And_Grandkids_VT01N-classic-00-sports_grey-men_350x.png?v=1659287187">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Chillever Personalized Grandpa Man Myth Legend And Grandkids VT01N T-Shirt<br>
+                        T-Shirt <br>
+                        $24.95
+                    </a>
+                </div>
+
+                <div class="left"><a href="#">Ornaments</a></div>
+                <div class="right"><a href="#">view more</a></div>
+                <div style="clear:both"></div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/1_27ea522a-1f64-4788-82fc-a28faf6a0bea_350x.png?v=1665485909">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Custom Baby Cute Photo With Name for Christmas Ornament <br>
+                        Ornament <br>
+                        $19.95
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/6_7bda172c-9312-487b-a465-d814cec62d50_350x.png?v=1665475091">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Custom Baby’s First Christmas Pictures Ornament LTP01 <br>
+                        Ornament <br>
+                        $21.99
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/1_17440cb5-ac45-4598-aaa6-9802be28ec31_350x.png?v=1664613217">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Cute Baby Santa Ornament Custom Name Christmas Ornament <br>
+                        Ornament <br>
+                        $17.95
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/0_125e22b0-d197-401a-97dc-6d15d5bfbf0f_350x.png?v=1665476174">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Custom Baby Cute Pumpkin Photo With Name for Christmas Ornament LTP01 <br>
+                        Ornament <br>
+                        $21.99
+                    </a>
+                </div>
+
+                <div class="left"><a href="#">Ornaments</a></div>
+                <div class="right"><a href="#">view more</a></div>
+                <div style="clear:both"></div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/1_27ea522a-1f64-4788-82fc-a28faf6a0bea_350x.png?v=1665485909">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Custom Baby Cute Photo With Name for Christmas Ornament <br>
+                        Ornament <br>
+                        $19.95
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/6_7bda172c-9312-487b-a465-d814cec62d50_350x.png?v=1665475091">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Custom Baby’s First Christmas Pictures Ornament LTP01 <br>
+                        Ornament <br>
+                        $21.99
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/1_17440cb5-ac45-4598-aaa6-9802be28ec31_350x.png?v=1664613217">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Cute Baby Santa Ornament Custom Name Christmas Ornament <br>
+                        Ornament <br>
+                        $17.95
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/0_125e22b0-d197-401a-97dc-6d15d5bfbf0f_350x.png?v=1665476174">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Custom Baby Cute Pumpkin Photo With Name for Christmas Ornament LTP01 <br>
+                        Ornament <br>
+                        $21.99
+                    </a>
+                </div>
+
+                <div class="left"><a href="#">Ornaments</a></div>
+                <div class="right"><a href="#">view more</a></div>
+                <div style="clear:both"></div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/1_27ea522a-1f64-4788-82fc-a28faf6a0bea_350x.png?v=1665485909">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Custom Baby Cute Photo With Name for Christmas Ornament <br>
+                        Ornament <br>
+                        $19.95
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/6_7bda172c-9312-487b-a465-d814cec62d50_350x.png?v=1665475091">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Custom Baby’s First Christmas Pictures Ornament LTP01 <br>
+                        Ornament <br>
+                        $21.99
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/1_17440cb5-ac45-4598-aaa6-9802be28ec31_350x.png?v=1664613217">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Cute Baby Santa Ornament Custom Name Christmas Ornament <br>
+                        Ornament <br>
+                        $17.95
+                    </a>
+                </div>
+                <div class="mid-img">
+                    <div class="mimg">
+                        <a href="#">
+                            <img src="https://cdn.shopify.com/s/files/1/0611/6655/1228/products/0_125e22b0-d197-401a-97dc-6d15d5bfbf0f_350x.png?v=1665476174">
+                        </a>
+                    </div>
+                    <a href="#">
+                        Custom Baby Cute Pumpkin Photo With Name for Christmas Ornament LTP01 <br>
+                        Ornament <br>
+                        $21.99
+                    </a>
+                </div>
+        </div>
+        <div class="bot-content"></div>
     </div>
-    <div class="column">
-      <h3>Contact us</h3>
+    <div id="footer">
+        <div class="top-foot">
+            <div class="top-foot0">
+                <div class="top-foot1">Information</div>
+                <div class="top-foot1">Contact Us</div>
+                <div class="top-foot1">Newsletter</div>
+            </div>
+        </div>
+        <div class="bot-foot">
+            © <a href="#">Chillever</a> 2022. All Rights Reserved
+        </div>
     </div>
-    <div class="column">
-      <h3>Newsletter</h3>
-    </div>
-  </div>
+
 </body>
 </html>
